@@ -30,7 +30,6 @@ class ShopController extends BaseController
         if(count($genres) == 0){
             $rakutenSrv = new Rakuten();
             $genres = $rakutenSrv->getAllGenres();
-            var_dump($genres);exit;
             // insert all of genres into database
             Category::insert($genres);
         }

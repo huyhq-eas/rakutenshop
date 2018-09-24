@@ -33,3 +33,6 @@ TEST DATABASE
 Note:
 Tinker is a command line utility that allows you to interact with the Laravel environment. It is a good tool for testing function without the use of the web browser.
 >php artisan tinker
+
+NOTE:
+In .env, please change [YOUR_RAKUTEN_APP_ID] with your app id, and change [username], [password] for your mysql database
